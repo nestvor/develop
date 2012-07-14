@@ -6,10 +6,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>aggregator</name>
-  <modules>
-    <module>webapp</module>
-    <module>webservice</module>
-  </modules>
+  
   <build>
   	<plugins>
   		<plugin>
@@ -23,4 +20,7 @@
   		</plugin>
   	</plugins>
   </build>
+  <modules>
+  	<module>webapp</module>
+  </modules>
 </project>
